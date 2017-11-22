@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by starhaotian on 21/11/2017.
  */
@@ -10,7 +13,7 @@ public class Incentive {
     private double discount;
     private String start_date;
     private String end_date;
-    private String criterion;
+    private List<String> criterion;
     private String description;
 
     public String getId() {
@@ -36,10 +39,9 @@ public class Incentive {
     }
 
 
-    public String getCriteria() {
+    public List<String> getCriterion() {
         return criterion;
     }
-
 
     public String getDescription() {
         return description;
@@ -58,7 +60,8 @@ public class Incentive {
         this.discount = Double.parseDouble(arr[3]);
         this.start_date = arr[4];
         this.end_date = arr[5];
-        this.criterion = arr[6];
+        String[] curr_criterion = arr[6].split(",");
+        this.criterion = java.util.Arrays.asList(curr_criterion);
         this.description = arr[7];
     }
 
