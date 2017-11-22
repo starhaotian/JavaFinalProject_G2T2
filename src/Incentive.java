@@ -73,4 +73,12 @@ public class Incentive {
     }
 
 
+    //test method
+    public static void main(String[] args){
+        String[] arr = new String[]{"1","0002","christmas","100","2017.2.1","2017.5.6","mazda,2017,white","happy"};
+        Incentive incentive_a = new Incentive(arr);
+        System.out.println(incentive_a);
+    }
+
+
 }
