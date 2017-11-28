@@ -1,0 +1,101 @@
+id~incentive_id~title~discount~start_date~end_date~criterion～description
+2~0003~Thanksgiving~800.0~2014.2.5~2017.2.5~no,no,no,no,2017~this is a huge discount
+1~0001~Halloween~1500.0~2016.5.8~2017.5.6~ALL~do not miss it
+1~0004~Christmas~1500.0~2015.11.23~2017.10.2~no,black,no,SUV,no~buy now
+4~0003~Halloween~1500.0~2012.2.1~2017.2.5~ALL~you could get a extra gas gift card
+1~0004~Customer Service Day~800.0~2014.2.5~2017.2.5~no,no,no,no,2017~this is a huge discount
+3~0002~Customer Service Day~300.0~2015.11.23~2017.5.6~no,black,no,SUV,no~this is a huge discount
+2~0003~Customer Service Day~800.0~2016.5.8~2017.1.2~no,white,toyoto,no,no~you could get a extra gas gift card
+4~0004~Customer Service Day~800.0~2012.2.1~2017.5.6~no,white,toyoto,no,no~this is a huge discount
+4~0001~Customer Service Day~800.0~2016.5.8~2017.2.5~no,black,no,SUV,no~do not miss it
+4~0001~Halloween~300.0~2015.11.23~2017.2.5~no,white,toyoto,no,no~you could get a extra gas gift card
+3~0002~Customer Service Day~300.0~2012.2.1~2017.1.2~no,black,no,SUV,no~do not miss it
+3~0004~Thanksgiving~300.0~2012.2.1~2017.1.2~no,black,no,SUV,no~this is a huge discount
+2~0001~Halloween~500.0~2012.2.1~2017.2.5~no,white,toyoto,no,no~buy now
+2~0004~Christmas~300.0~2012.2.1~2017.1.2~no,white,toyoto,no,no~buy now
+3~0002~Customer Service Day~300.0~2015.11.23~2017.5.6~no,white,toyoto,no,no~buy now
+3~0001~Thanksgiving~800.0~2012.2.1~2017.1.2~ALL~buy now
+3~0002~Halloween~500.0~2015.11.23~2017.1.2~no,black,no,SUV,no~do not miss it
+3~0002~Christmas~800.0~2012.2.1~2017.1.2~no,no,no,no,2017~do not miss it
+4~0001~Customer Service Day~300.0~2012.2.1~2017.2.5~ALL~you could get a extra gas gift card
+3~0003~Customer Service Day~800.0~2012.2.1~2017.2.5~no,white,toyoto,no,no~buy now
+2~0002~Customer Service Day~300.0~2012.2.1~2017.2.5~ALL~buy now
+2~0002~Halloween~500.0~2014.2.5~2017.2.5~no,no,no,no,2017~this is a huge discount
+3~0003~Christmas~800.0~2012.2.1~2017.2.5~no,no,no,no,2017~this is a huge discount
+3~0004~Customer Service Day~300.0~2015.11.23~2017.2.5~no,black,no,SUV,no~this is a huge discount
+2~0004~Halloween~500.0~2016.5.8~2017.10.2~no,black,no,SUV,no~do not miss it
+3~0003~Thanksgiving~500.0~2014.2.5~2017.10.2~no,black,no,SUV,no~you could get a extra gas gift card
+1~0002~Halloween~800.0~2014.2.5~2017.10.2~ALL~buy now
+1~0004~Halloween~800.0~2014.2.5~2017.5.6~ALL~this is a huge discount
+2~0001~Christmas~1500.0~2015.11.23~2017.2.5~ALL~buy now
+2~0003~Thanksgiving~800.0~2015.11.23~2017.1.2~ALL~this is a huge discount
+4~0001~Christmas~500.0~2015.11.23~2017.2.5~no,no,no,no,2017~this is a huge discount
+1~0002~Thanksgiving~300.0~2015.11.23~2017.10.2~ALL~buy now
+3~0002~Halloween~1500.0~2016.5.8~2017.2.5~no,black,no,SUV,no~this is a huge discount
+3~0004~Halloween~500.0~2012.2.1~2017.5.6~no,no,no,no,2017~do not miss it
+2~0001~Christmas~1500.0~2015.11.23~2017.2.5~no,white,toyoto,no,no~buy now
+3~0001~Christmas~1500.0~2015.11.23~2017.1.2~no,white,toyoto,no,no~do not miss it
+1~0001~Customer Service Day~500.0~2012.2.1~2017.5.6~no,black,no,SUV,no~this is a huge discount
+2~0003~Thanksgiving~1500.0~2012.2.1~2017.5.6~no,no,no,no,2017~you could get a extra gas gift card
+2~0003~Thanksgiving~300.0~2016.5.8~2017.10.2~no,white,toyoto,no,no~buy now
+2~0002~Christmas~1500.0~2014.2.5~2017.2.5~no,black,no,SUV,no~buy now
+3~0002~Halloween~800.0~2012.2.1~2017.1.2~ALL~do not miss it
+2~0003~Thanksgiving~300.0~2014.2.5~2017.5.6~no,black,no,SUV,no~buy now
+3~0001~Customer Service Day~300.0~2014.2.5~2017.1.2~no,no,no,no,2017~buy now
+2~0004~Christmas~300.0~2016.5.8~2017.1.2~ALL~this is a huge discount
+3~0004~Thanksgiving~1500.0~2014.2.5~2017.2.5~ALL~this is a huge discount
+1~0001~Halloween~500.0~2015.11.23~2017.1.2~no,no,no,no,2017~you could get a extra gas gift card
+2~0001~Halloween~300.0~2012.2.1~2017.1.2~ALL~this is a huge discount
+4~0001~Christmas~300.0~2014.2.5~2017.1.2~no,white,toyoto,no,no~do not miss it
+2~0001~Thanksgiving~300.0~2014.2.5~2017.2.5~no,no,no,no,2017~buy now
+2~0001~Christmas~1500.0~2014.2.5~2017.1.2~no,white,toyoto,no,no~do not miss it
+4~0004~Christmas~1500.0~2015.11.23~2017.1.2~ALL~you could get a extra gas gift card
+4~0002~Thanksgiving~800.0~2016.5.8~2017.1.2~no,black,no,SUV,no~buy now
+1~0004~Halloween~300.0~2014.2.5~2017.2.5~no,no,no,no,2017~buy now
+2~0001~Halloween~1500.0~2014.2.5~2017.2.5~no,no,no,no,2017~do not miss it
+1~0003~Thanksgiving~300.0~2012.2.1~2017.2.5~ALL~this is a huge discount
+4~0002~Christmas~800.0~2015.11.23~2017.5.6~no,no,no,no,2017~you could get a extra gas gift card
+4~0001~Christmas~500.0~2014.2.5~2017.1.2~no,no,no,no,2017~this is a huge discount
+3~0001~Christmas~300.0~2014.2.5~2017.1.2~no,no,no,no,2017~this is a huge discount
+1~0001~Thanksgiving~1500.0~2014.2.5~2017.5.6~no,black,no,SUV,no~this is a huge discount
+4~0001~Thanksgiving~800.0~2012.2.1~2017.5.6~no,no,no,no,2017~you could get a extra gas gift card
+3~0003~Thanksgiving~500.0~2012.2.1~2017.10.2~no,no,no,no,2017~you could get a extra gas gift card
+4~0002~Thanksgiving~500.0~2014.2.5~2017.1.2~ALL~do not miss it
+2~0002~Customer Service Day~300.0~2014.2.5~2017.10.2~no,white,toyoto,no,no~buy now
+3~0002~Thanksgiving~500.0~2015.11.23~2017.1.2~no,black,no,SUV,no~this is a huge discount
+4~0001~Thanksgiving~800.0~2015.11.23~2017.5.6~no,black,no,SUV,no~you could get a extra gas gift card
+2~0003~Christmas~300.0~2015.11.23~2017.2.5~no,white,toyoto,no,no~you could get a extra gas gift card
+3~0004~Christmas~300.0~2016.5.8~2017.2.5~ALL~this is a huge discount
+1~0003~Christmas~1500.0~2014.2.5~2017.10.2~no,black,no,SUV,no~do not miss it
+2~0001~Halloween~800.0~2016.5.8~2017.5.6~no,no,no,no,2017~buy now
+3~0001~Customer Service Day~300.0~2012.2.1~2017.5.6~ALL~this is a huge discount
+3~0001~Halloween~300.0~2012.2.1~2017.1.2~no,black,no,SUV,no~this is a huge discount
+1~0003~Christmas~1500.0~2015.11.23~2017.2.5~no,black,no,SUV,no~you could get a extra gas gift card
+2~0003~Customer Service Day~300.0~2016.5.8~2017.5.6~no,no,no,no,2017~buy now
+1~0004~Christmas~500.0~2016.5.8~2017.10.2~no,no,no,no,2017~you could get a extra gas gift card
+1~0003~Thanksgiving~800.0~2016.5.8~2017.2.5~ALL~buy now
+1~0003~Customer Service Day~500.0~2016.5.8~2017.2.5~no,no,no,no,2017~buy now
+3~0003~Thanksgiving~1500.0~2014.2.5~2017.10.2~no,no,no,no,2017~buy now
+4~0003~Halloween~300.0~2016.5.8~2017.10.2~no,white,toyoto,no,no~do not miss it
+3~0003~Customer Service Day~500.0~2016.5.8~2017.5.6~no,black,no,SUV,no~you could get a extra gas gift card
+1~0002~Customer Service Day~800.0~2015.11.23~2017.2.5~no,black,no,SUV,no~do not miss it
+2~0001~Christmas~800.0~2015.11.23~2017.5.6~no,no,no,no,2017~do not miss it
+3~0004~Customer Service Day~500.0~2012.2.1~2017.5.6~ALL~this is a huge discount
+1~0002~Halloween~800.0~2015.11.23~2017.5.6~no,white,toyoto,no,no~this is a huge discount
+3~0004~Customer Service Day~500.0~2014.2.5~2017.1.2~no,white,toyoto,no,no~you could get a extra gas gift card
+3~0001~Customer Service Day~300.0~2014.2.5~2017.10.2~ALL~you could get a extra gas gift card
+2~0004~Halloween~800.0~2016.5.8~2017.10.2~no,black,no,SUV,no~do not miss it
+4~0004~Customer Service Day~800.0~2015.11.23~2017.10.2~no,white,toyoto,no,no~buy now
+3~0002~Christmas~800.0~2014.2.5~2017.10.2~no,white,toyoto,no,no~buy now
+2~0003~Thanksgiving~500.0~2012.2.1~2017.2.5~ALL~do not miss it
+1~0001~Customer Service Day~500.0~2014.2.5~2017.2.5~no,no,no,no,2017~buy now
+1~0002~Customer Service Day~500.0~2016.5.8~2017.2.5~no,black,no,SUV,no~this is a huge discount
+2~0002~Halloween~1500.0~2014.2.5~2017.2.5~no,black,no,SUV,no~buy now
+2~0003~Customer Service Day~1500.0~2012.2.1~2017.1.2~ALL~this is a huge discount
+4~0002~Halloween~300.0~2014.2.5~2017.5.6~no,black,no,SUV,no~you could get a extra gas gift card
+2~0003~Christmas~1500.0~2012.2.1~2017.5.6~ALL~do not miss it
+1~0004~Christmas~800.0~2014.2.5~2017.1.2~no,white,toyoto,no,no~you could get a extra gas gift card
+2~0001~Christmas~300.0~2016.5.8~2017.10.2~no,no,no,no,2017~buy now
+2~0004~Customer Service Day~800.0~2016.5.8~2017.2.5~no,white,toyoto,no,no~this is a huge discount
+2~0004~Customer Service Day~300.0~2014.2.5~2017.1.2~no,white,toyoto,no,no~do not miss it
+4~0004~Thanksgiving~300.0~2016.5.8~2017.2.5~no,white,toyoto,no,no~this is a huge discount
