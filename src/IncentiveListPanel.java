@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class IncentiveListPanel {
 
-    public static void main(String[] args) throws IOException {
+    public IncentiveListPanel() throws IOException {
         JFrame frame = new JFrame("HaoTian List");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -21,6 +21,10 @@ public class IncentiveListPanel {
 
         frame.pack();
         frame.setVisible(true);
+    }
+
+    public static void main(String[] args) throws IOException {
+        new IncentiveListPanel();
     }
 }
 
