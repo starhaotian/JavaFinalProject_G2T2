@@ -1,10 +1,7 @@
-package com.neuSep17.ui.Dealer;
-
-import com.neuSep17.dto.Category;
-import com.neuSep17.dto.Incentive;
-
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 public class IncentiveDialog extends JDialog {
@@ -12,7 +9,7 @@ public class IncentiveDialog extends JDialog {
     private Incentive incentive;
     private JLabel labelTitle, labelDiscount,labelStart,labelEnd,labelCriterion,labelDescription;
 
-    private JTextField fieldTitle,fieldDiscount,fieldStart,fieldEnd,fieldPrice;
+    private JTextField fieldTitle,fieldDiscount,fieldStart,fieldEnd;
 
     private JTextArea description;
     private JScrollPane scrollPane;
@@ -22,7 +19,7 @@ public class IncentiveDialog extends JDialog {
     private JButton buttonCancel;
 
     public IncentiveDialog(String dealerId){
-        createComponents();
+        initComponents();
         addComponents();
         makeListeners();
         display();
@@ -36,9 +33,8 @@ public class IncentiveDialog extends JDialog {
                 "all,no,no,no,no,no,no,no","All the vehicle apply"});
 
         initComponents();
-       //createComponents();
         addComponents();
-        //makeListeners();
+        makeListeners();
         display();
         setTitle("add incentive");
     }
@@ -55,33 +51,19 @@ public class IncentiveDialog extends JDialog {
         labelDescription = new JLabel("Description: ");
 
 
-        fieldTitle = new JTextField(incentive.getTitle(),20);
-        fieldDiscount = new JTextField(String.valueOf(incentive.getDiscount()),20);
-        fieldStart = new JTextField(incentive.getStartDate(),20);
-        fieldEnd = new JTextField(incentive.getEndDate(),20);
+        fieldTitle = new JTextField(incentive == null ? "" : incentive.getTitle(),20);
+        fieldDiscount = new JTextField(incentive == null ? "" : String.valueOf(incentive.getDiscount()),20);
+        fieldStart = new JTextField(incentive == null ? "" : incentive.getStartDate(),20);
+        fieldEnd = new JTextField(incentive == null ? "" : incentive.getEndDate(),20);
 
-        description = new JTextArea(incentive.getDescription(),3,20);
+        description = new JTextArea(incentive == null ? "" : incentive.getDescription(),3,20);
         description.setLineWrap(true);
         description.setWrapStyleWord(true);
         scrollPane = new JScrollPane(description);
 
-        //criterion data,get data from vehicle
-        ArrayList<String> criterion = incentive.getCriterion();
-        String[] crit = new String[5];
-        int i = 0;
-        while (i < 4){
-            crit[i] = criterion.get(i);
-            i++;
-        }
-        crit[4] = criterion.get(criterion.size() - 1);
-
-        for (String s : crit){
-            System.out.println(s);
-        }
-
-
-        comboBoxRange = new JComboBox(new String[]{"All","No"});
-        comboBoxCategory = new JComboBox(Category.values());
+        comboBoxRange = new JComboBox(new String[]{"All"});
+//        comboBoxCategory = new JComboBox(Category.values());
+        comboBoxCategory = new JComboBox(new String[] {"NEW", "USED", "CERTIFIED"});
         comboBoxYear = new JComboBox(new String[] {"2010","2011","2012","2013"});
         comboBoxMake = new JComboBox(new String[] {"Cadillac","Chevrolet","Cadillac","Toyota"});
         comboBoxPrice = new JComboBox(new String[] {"500","1000","1500","2000"});
@@ -91,22 +73,36 @@ public class IncentiveDialog extends JDialog {
         createComboBox(comboBoxMake,"make");
         createComboBox(comboBoxPrice,"price");
 
-        //set the selected item
-        comboBoxRange.insertItemAt(crit[0],0);
-        comboBoxRange.setSelectedItem(comboBoxRange.getItemAt(0));
-        comboBoxCategory.insertItemAt(crit[1],0);
-        comboBoxCategory.setSelectedItem(comboBoxCategory.getItemAt(0));
-        comboBoxYear.insertItemAt(crit[2],0);
-        comboBoxYear.setSelectedItem(comboBoxYear.getItemAt(0));
-        comboBoxMake.insertItemAt(crit[3],0);
-        comboBoxMake.setSelectedItem(comboBoxMake.getItemAt(0));
-        comboBoxPrice.insertItemAt(crit[4],0);
-        comboBoxPrice.setSelectedItem(comboBoxPrice.getItemAt(0));
+        if(incentive != null){
+            //criterion data,get data from vehicle
+            ArrayList<String> criterion = incentive.getCriterion();
+            String[] crit = new String[5];
+            int i = 0;
+            while (i < 4){
+                crit[i] = criterion.get(i);
+                i++;
+            }
+            crit[4] = criterion.get(criterion.size() - 1);
 
+            for (String s : crit){
+                System.out.println(s);
+            }
+            if(crit[0].equals("all")){
+                comboBoxRange.setSelectedItem(comboBoxRange.getItemAt(1));
+                comboBoxCategory.setEnabled(false);
+                comboBoxMake.setEnabled(false);
+                comboBoxPrice.setEnabled(false);
+                comboBoxYear.setEnabled(false);
+            }else {
+                //set the selected item
+                comboBoxCategory.setSelectedItem(crit[1].equals("no") ? comboBoxCategory.getItemAt(0) : crit[1]);
+                comboBoxYear.setSelectedItem(crit[2].equals("no") ? comboBoxYear.getItemAt(0) : crit[2]);
+                comboBoxMake.setSelectedItem(crit[3].equals("no") ? comboBoxMake.getItemAt(0) : crit[3]);
+                comboBoxPrice.setSelectedItem(crit[4].equals("no") ? comboBoxPrice.getItemAt(0) : crit[4]);
+            }
+        }
 
         //logical of the range of criterion
-
-
 
         buttonSave = new JButton("Save");
         buttonCancel = new JButton("Cancel");
@@ -114,7 +110,31 @@ public class IncentiveDialog extends JDialog {
 
     //lulu
     private void makeListeners() {
+        CriterionActionListener cl = new CriterionActionListener();
+        comboBoxRange.addActionListener(cl);
+    }
 
+    class CriterionActionListener implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            System.out.println(comboBoxRange.getSelectedIndex());
+            if(comboBoxRange.getSelectedIndex() != 0){
+                comboBoxCategory.setSelectedItem(comboBoxCategory.getItemAt(0));
+                comboBoxYear.setSelectedItem(comboBoxYear.getItemAt(0));
+                comboBoxMake.setSelectedItem(comboBoxMake.getItemAt(0));
+                comboBoxPrice.setSelectedItem(comboBoxPrice.getItemAt(0));
+                comboBoxCategory.setEnabled(false);
+                comboBoxYear.setEnabled(false);
+                comboBoxMake.setEnabled(false);
+                comboBoxPrice.setEnabled(false);
+            }else{
+                comboBoxCategory.setEnabled(true);
+                comboBoxYear.setEnabled(true);
+                comboBoxMake.setEnabled(true);
+                comboBoxPrice.setEnabled(true);
+            }
+        }
     }
 
     //jing
@@ -126,46 +146,12 @@ public class IncentiveDialog extends JDialog {
     private void saveIncentive(){
 //        incentive.
     }
-    private void createComponents() {
-        labelTitle = new JLabel("Title: ");
-        labelDiscount = new JLabel("Discount: ");
-        labelStart = new JLabel("Start Date: ");
-        labelEnd = new JLabel("End Date: ");
-        labelCriterion = new JLabel("Criterion: ");
-        labelDescription = new JLabel("Description: ");
-
-        fieldTitle = new JTextField(20);
-        fieldDiscount = new JTextField(20);
-        fieldStart = new JTextField(20);
-        fieldEnd = new JTextField(20);
-
-        description = new JTextArea(3,20);
-        description.setLineWrap(true);
-        description.setWrapStyleWord(true);
-        scrollPane = new JScrollPane(description);
-
-        //test data
-        comboBoxRange = new JComboBox(new String[]{"All"});
-        comboBoxCategory = new JComboBox(Category.values());
-        comboBoxYear = new JComboBox(new String[] {"2010","2011","2012"});
-        comboBoxMake = new JComboBox(new String[] {"Cadillac","Chevrolet","Cadillac"});
-        createComboBox(comboBoxRange,"range");
-        createComboBox(comboBoxCategory,"category");
-        createComboBox(comboBoxYear,"year");
-        createComboBox(comboBoxMake,"make");
-
-        comboBoxCategory.insertItemAt("choose category...",0);
-        comboBoxCategory.setSelectedItem(comboBoxCategory.getItemAt(0));
-
-
-        buttonSave = new JButton("Save");
-        buttonCancel = new JButton("Cancel");
-    }
 
     private void createComboBox(JComboBox comboBox, String name){
         comboBox.insertItemAt("Choose "+name+"...",0);
         comboBox.setSelectedItem(comboBox.getItemAt(0));
     }
+
     private void display() {
         setSize(500, 800);
         setVisible(true);
