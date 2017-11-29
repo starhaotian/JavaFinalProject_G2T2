@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="fef29d6d-9022-4f79-86af-a17f54e88edc" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/manageIncentivesLayout.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveAddEditDialog.class" afterPath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveAddEditDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveDeleteDialog.class" afterPath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveDeleteDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IncentiveDeleteDialog.java" afterPath="$PROJECT_DIR$/src/IncentiveDeleteDialog.java" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveAddEditDialog.class" afterPath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveAddEditDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveSearchPanel.class" afterPath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveSearchPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IncentiveSearchPanel.java" afterPath="$PROJECT_DIR$/src/IncentiveSearchPanel.java" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveAddEditDialog.class" afterPath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveAddEditDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveSearchPanel.class" afterPath="$PROJECT_DIR$/out/production/JavaFinalProject_G2T2/IncentiveSearchPanel.class" />
@@ -26,6 +33,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="IncentiveDeleteDialog.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IncentiveDeleteDialog.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,6 +46,11 @@
       <file leaf-file-name="IncentiveAPP.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IncentiveAPP.java">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="IncentiveAPP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IncentiveAPP.java">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
             <state relative-caret-position="240">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
@@ -67,6 +80,7 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="IncentiveSearchPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncentiveSearchPanel.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,6 +90,11 @@
       <file leaf-file-name="dataset.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dataset.java">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="dataset.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
             <state relative-caret-position="354">
               <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
@@ -90,12 +109,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+<<<<<<< HEAD
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
+=======
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="IncentiveAddEditDialog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncentiveAddEditDialog.java">
@@ -109,6 +132,11 @@
       <file leaf-file-name="IncentiveFilterPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncentiveFilterPanel.java">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="IncentiveFilterPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IncentiveFilterPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
             <state relative-caret-position="371">
               <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
@@ -148,8 +176,13 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="IncentiveToolPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncentiveToolPanel.java">
+=======
+      <file leaf-file-name="IncentiveListTableModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IncentiveListTableModel.java">
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
       <file leaf-file-name="IncentiveListTableModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncentiveListTableModel.java">
@@ -196,8 +229,12 @@
         <option value="$PROJECT_DIR$/src/IncentiveFilterPanel.java" />
         <option value="$PROJECT_DIR$/src/IncentiveListAndSortPanel.java" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/IncentiveAPP.java" />
         <option value="$PROJECT_DIR$/src/IncentiveDeleteDialog.java" />
+=======
+        <option value="$PROJECT_DIR$/src/IncentiveSearchPanel.java" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
         <option value="$PROJECT_DIR$/src/IncentiveSearchPanel.java" />
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
@@ -752,8 +789,12 @@
       <workItem from="1511336188611" duration="8727000" />
       <workItem from="1511758284189" duration="13494000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1511941223667" duration="1771000" />
       <workItem from="1511982634438" duration="936000" />
+=======
+      <workItem from="1511941223667" duration="2914000" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
       <workItem from="1511941223667" duration="2914000" />
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
@@ -840,7 +881,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="24928000" />
+=======
+    <option name="totallyTimeSpent" value="25135000" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
     <option name="totallyTimeSpent" value="25135000" />
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
@@ -879,7 +924,11 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35193133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35193133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35193133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
@@ -973,6 +1022,7 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/JavaFinalProject_G2T2.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -980,6 +1030,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
     <entry file="file://$PROJECT_DIR$/src/Incentive.java">
@@ -1103,6 +1155,7 @@
         <state relative-caret-position="315">
           <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1112,6 +1165,8 @@
         <state relative-caret-position="360">
           <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
 =======
+=======
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
           <folding />
         </state>
       </provider>
@@ -1129,6 +1184,9 @@
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
+<<<<<<< HEAD
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
+=======
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
         </state>
       </provider>
@@ -1136,6 +1194,7 @@
     <entry file="file://$PROJECT_DIR$/src/IncentiveSearchEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
+<<<<<<< HEAD
 <<<<<<< HEAD
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
@@ -1145,6 +1204,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
 =======
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
@@ -1168,11 +1229,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IncentiveAPP.java">
+    <entry file="file://$PROJECT_DIR$/src/IncentiveToolPanel.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-        <state relative-caret-position="136">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
 =======
         <state relative-caret-position="294">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
@@ -1186,6 +1247,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
 =======
     <entry file="file://$PROJECT_DIR$/src/IncentiveFilterEvent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1197,17 +1259,73 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/IncentiveAPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="136">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+=======
+        <state relative-caret-position="294">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
+=======
+    <entry file="file://$PROJECT_DIR$/src/IncentiveFilterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/manageIncentivesLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/IncentiveFilterEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
+=======
+    <entry file="file://$PROJECT_DIR$/src/IncentiveListAndSortPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IncentiveListTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/IncentiveMainFrame.java">
 =======
     <entry file="file://$PROJECT_DIR$/src/IncentiveFilterListener.java">
 >>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+=======
+        <state relative-caret-position="-17">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/IncentiveSearchEvent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1249,14 +1367,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/dataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IncentiveAddEditDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IncentiveFilterPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/IncentiveSearchPanel.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-937">
           <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+=======
+        <state relative-caret-position="186">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
           <folding />
 =======
     <entry file="file://$PROJECT_DIR$/src/dataset.java">
@@ -1270,10 +1409,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/IncentiveAddEditDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/IncentiveFilterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
           <folding />
         </state>
       </provider>
@@ -1291,6 +1437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IncentiveSearchPanel.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-110">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
 =======
@@ -1320,6 +1467,8 @@
             <element signature="imports" expanded="true" />
           </folding>
 =======
+=======
+>>>>>>> 2f9e3b2c7c00b9f371d37770580e0cee1d092a2d
         <state relative-caret-position="240">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
