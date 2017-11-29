@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 import java.util.EventObject;
 
-public class FilterEvent extends EventObject {
+public class IncentiveFilterEvent extends EventObject {
     private ArrayList<String> filterList;
 
-    public FilterEvent(Object source) {
+    public IncentiveFilterEvent(Object source) {
         super(source);
     }
 
-    public FilterEvent(Object source, ArrayList<String> filterList){
+    public IncentiveFilterEvent(Object source, ArrayList<String> filterList){
         super(source);
         this.filterList = filterList;
     }

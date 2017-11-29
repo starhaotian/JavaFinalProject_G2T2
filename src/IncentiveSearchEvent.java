@@ -1,14 +1,14 @@
 import java.util.EventObject;
 
-public class SearchEvent extends EventObject {
+public class IncentiveSearchEvent extends EventObject {
 
     private String searchContent;
 
-    public SearchEvent(Object source) {
+    public IncentiveSearchEvent(Object source) {
         super(source);
     }
 
-    public SearchEvent(Object source, String searchContent) {
+    public IncentiveSearchEvent(Object source, String searchContent) {
         super(source);
         this.searchContent = searchContent;
     }

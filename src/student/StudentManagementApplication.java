@@ -125,7 +125,7 @@ public class StudentManagementApplication extends JFrame {
 	public void addComponents() {
 		Container con = getContentPane();
 		con.setLayout(new BorderLayout());
-		// Add Table to the north..
+		// Add Table to the north.
 		con.add(makeTablePanel(), "North");
 		// Add the screen to enter information in center - create a panel for
 		// the input..

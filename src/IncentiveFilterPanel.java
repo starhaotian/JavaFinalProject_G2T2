@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class FilterPanel extends JPanel {
+public class IncentiveFilterPanel extends JPanel {
 
     private JLabel rangeLabel;
     private JLabel vehicleLabel;
@@ -23,9 +23,9 @@ public class FilterPanel extends JPanel {
 
     private JButton filterSubmit;
 
-    private FilterListener filterListener;
+    private IncentiveFilterListener filterListener;
 
-    public FilterPanel(){
+    public IncentiveFilterPanel(){
         Dimension dim = getPreferredSize();
         dim.width = 200;
         setPreferredSize(dim);
@@ -80,7 +80,7 @@ public class FilterPanel extends JPanel {
                 filterList.add(type);
                 filterList.add(year);
 
-                FilterEvent fe = new FilterEvent(e, filterList);
+                IncentiveFilterEvent fe = new IncentiveFilterEvent(e, filterList);
 
                 if (filterListener != null){
                     filterListener.filterEventOccurred(fe);
@@ -242,7 +242,7 @@ public class FilterPanel extends JPanel {
         add(filterSubmit, gc);
     }
 
-    public void setFilterListener(FilterListener filterListener){
+    public void setFilterListener(IncentiveFilterListener filterListener){
         this.filterListener = filterListener;
     }
 }

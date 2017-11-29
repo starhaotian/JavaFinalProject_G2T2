@@ -3,54 +3,63 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SearchPanel extends JPanel {
+public class IncentiveSearchPanel extends JPanel {
+    private JLabel title;
     private JLabel searchNotice;
     private TextField textField;
     private JButton searchButton;
-    private SearchListener searchListener;
+    private IncentiveSearchListener searchListener;
 
-    public SearchPanel(){
+    public IncentiveSearchPanel(){
         Dimension dim = getPreferredSize();
-        dim.height = 40;
+        dim.height = 100;
         setPreferredSize(dim);
+
+        title = new JLabel("Manage Incentives");
+        title.setPreferredSize(new Dimension(250,60));
+        title.setFont(new Font("Serif", Font.PLAIN, 28));
         searchNotice = new JLabel("Search by incentive ID or name:");
-        searchNotice.setPreferredSize(new Dimension(200, 34));
+        searchNotice.setPreferredSize(new Dimension(250, 34));
+        searchNotice.setFont(new Font("Serif", Font.PLAIN, 18));
         textField = new TextField();
-        textField.setPreferredSize(new Dimension(400, 30));
+        textField.setPreferredSize(new Dimension(600, 34));
         searchButton = new JButton("Search");
-        searchButton.setPreferredSize(new Dimension(100,34));
-        paneLayout();
+        searchButton.setPreferredSize(new Dimension(80,34));
+
+
+        panelLayout();
 
         searchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String searchContent = textField.getText();
 
-                SearchEvent se = new SearchEvent(e, searchContent);
+                IncentiveSearchEvent se = new IncentiveSearchEvent(e, searchContent);
                 if (searchListener != null){
                     searchListener.searchEventOccurred(se);
                 }
             }
         });
 
-
-
     }
 
-    public void paneLayout(){
+    public void panelLayout(){
         setLayout(new GridBagLayout());
 
         GridBagConstraints gc = new GridBagConstraints();
 
-
-        gc.weightx = 1;
-        gc.weighty = 0.1;
-        gc.fill = GridBagConstraints.NONE;
         gc.gridy = 0;
+        gc.weightx = 1;
+        gc.weighty = 1;
+        gc.gridx = 1;
+        gc.fill = GridBagConstraints.NONE;
+        gc.anchor = GridBagConstraints.CENTER;
+        add(title, gc);
 
+
+        gc.gridy++;
         gc.gridx = 0;
         gc.anchor = GridBagConstraints.FIRST_LINE_END;
-        gc.insets = new Insets(0, 0, 0, 15);
         add(searchNotice, gc);
 
         gc.gridx = 1;
@@ -62,7 +71,7 @@ public class SearchPanel extends JPanel {
         add(searchButton, gc);
     }
 
-    public void setSearchListener(SearchListener searchListener){
+    public void setSearchListener(IncentiveSearchListener searchListener){
         this.searchListener = searchListener;
     }
 }
