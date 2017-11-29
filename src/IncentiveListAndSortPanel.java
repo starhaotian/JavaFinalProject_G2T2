@@ -17,12 +17,12 @@ public class IncentiveListAndSortPanel extends JPanel {
 
     public void panelLayout(){
         Dimension dim = getPreferredSize();
-        dim.width = 900;
+        dim.width = 1000;
         setPreferredSize(dim);
 
         BoxLayout whole_layout = new BoxLayout(this,BoxLayout.Y_AXIS);
         setLayout(whole_layout);
-        setBackground(Color.cyan);
+        setBackground(new Color(206, 206, 206));
         add(sortPanel);
         add(listPanel);
     }
@@ -38,7 +38,8 @@ class IncentiveSortPanel extends JPanel{
         sortCombo.setAlignmentX(Component.RIGHT_ALIGNMENT);
         add(sortCombo);
         setLayout(new FlowLayout(FlowLayout.RIGHT));
-        setBackground(Color.yellow);
+        setBackground(new Color(206, 206, 206));
+        setPreferredSize(new Dimension(1000,30));
     }
 }
 
@@ -49,24 +50,24 @@ class IncentiveListPanel extends JPanel{
     private IncentiveListTableModel listInput;
 
     public IncentiveListPanel() throws IOException {
-        setBackground(Color.pink);
+        setBackground(new Color(206, 206, 206));
         setLayout(new FlowLayout());
-        setPreferredSize(new Dimension(650,300));
+        setPreferredSize(new Dimension(1000,530));
 
         tempFileReader = new TempFileReader();
         data = tempFileReader.read();
         listInput = new IncentiveListTableModel(data);
         list_table = new JTable(listInput);
-        list_table.setBackground(Color.pink);
+        list_table.setBackground(new Color(206, 206, 206));
         for (int i = 0; i < 8; i++ ){
             TableColumn firstColumn = list_table.getColumnModel().getColumn(i);
-            firstColumn.setPreferredWidth(200);
+            firstColumn.setPreferredWidth(150);
         }
-        list_table.setPreferredScrollableViewportSize(new Dimension(700,300));
+        list_table.setPreferredScrollableViewportSize(new Dimension(980,530));
         list_table.setFillsViewportHeight(true);
         list_table.setAutoCreateColumnsFromModel(true);
 
-        list_table.setRowHeight(150);
+        list_table.setRowHeight(100);
         JScrollPane scrollPane = new JScrollPane(list_table);
         add(scrollPane);
 
