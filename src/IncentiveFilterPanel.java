@@ -242,6 +242,15 @@ public class IncentiveFilterPanel extends JPanel {
         add(filterSubmit, gc);
     }
 
+    //grey out
+//    class ActionListener implements ActionListener{
+//
+//        @Override
+//        public void actionPerformed(ActionEvent e) {
+//
+//        }
+//    }
+
     public void setFilterListener(IncentiveFilterListener filterListener){
         this.filterListener = filterListener;
     }

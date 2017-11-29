@@ -18,11 +18,11 @@ public class IncentiveSearchPanel extends JPanel {
         title = new JLabel("Manage Incentives");
         title.setPreferredSize(new Dimension(650,60));
         title.setFont(new Font("Menlo", Font.PLAIN, 35));
-        searchNotice = new JLabel("Search by incentive ID or name:");
-        searchNotice.setPreferredSize(new Dimension(350, 34));
+        searchNotice = new JLabel("Search by key words:");
+        searchNotice.setPreferredSize(new Dimension(250, 34));
         searchNotice.setFont(new Font("Menlo", Font.PLAIN, 18));
         textField = new TextField();
-        textField.setPreferredSize(new Dimension(600, 34));
+        textField.setPreferredSize(new Dimension(850, 34));
         searchButton = new JButton("Search");
         searchButton.setPreferredSize(new Dimension(80,34));
 

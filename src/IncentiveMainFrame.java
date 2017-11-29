@@ -33,7 +33,7 @@ public class IncentiveMainFrame extends JFrame {
         searchPanel.setSearchListener(new IncentiveSearchListener(){
             public void searchEventOccurred(IncentiveSearchEvent se){
                 String searchContent = se.getSearchContent();
-
+                listSortPanel.getListPanel().searchTable(searchContent);
             }
         });
 
@@ -41,7 +41,7 @@ public class IncentiveMainFrame extends JFrame {
             @Override
             public void filterEventOccurred(IncentiveFilterEvent fe) {
                 ArrayList<String> filterList = fe.getFilterList();
-
+                listSortPanel.getListPanel().filterTable(filterList);
             }
         });
     }
