@@ -43,7 +43,12 @@ public class IncentiveListTableModel implements TableModel {
 
     @Override
     public Class<?> getColumnClass(int columnIndex) {
-        return String.class;
+        Class trueClass = Object.class;
+
+        if(getRowCount() > 0)
+            trueClass =  getValueAt(0, columnIndex).getClass();
+
+        return trueClass;
     }
 
     @Override

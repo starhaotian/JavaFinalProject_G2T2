@@ -4,6 +4,8 @@ import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -33,11 +35,15 @@ public class IncentiveListAndSortPanel extends JPanel {
     public IncentiveListPanel getListPanel() {
         return listPanel;
     }
+
+    public IncentiveSortPanel getSortPanel() {
+        return sortPanel;
+    }
 }
 
 class IncentiveSortPanel extends JPanel{
     private JComboBox sortCombo;
-
+    private IncentiveSortListener incentiveSortListener;
 
     public IncentiveSortPanel(){
         String[] sort_name = {"Sort","Discount high to low","Discount low to high"};
@@ -47,6 +53,21 @@ class IncentiveSortPanel extends JPanel{
         setLayout(new FlowLayout(FlowLayout.RIGHT));
         setBackground(new Color(206, 206, 206));
         setPreferredSize(new Dimension(1000,30));
+
+        sortCombo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int selectedIndex = sortCombo.getSelectedIndex();
+                IncentiveSortEvent ise = new IncentiveSortEvent(e, selectedIndex);
+                if (incentiveSortListener != null){
+                    incentiveSortListener.sortEventOccurred(ise);
+                }
+            }
+        });
+    }
+
+    public void setSortListener(IncentiveSortListener incentiveSortListener){
+        this.incentiveSortListener = incentiveSortListener;
     }
 }
 
@@ -103,6 +124,20 @@ class IncentiveListPanel extends JPanel{
             }
         }
         sorter.setRowFilter(RowFilter.andFilter(filters));
+        list_table.setRowSorter(sorter);
+    }
+
+    public void sortTable(int selectedIndex){
+        sorter = new TableRowSorter<>(list_table.getModel());
+        ArrayList<RowSorter.SortKey> sortKeys = new ArrayList<>();
+        if (selectedIndex == 1) {
+            sortKeys.add(new RowSorter.SortKey(3, SortOrder.DESCENDING));
+        } else if (selectedIndex == 2) {
+            sortKeys.add(new RowSorter.SortKey(3, SortOrder.ASCENDING));
+        } else {
+            sortKeys.add(new RowSorter.SortKey(0, SortOrder.ASCENDING));
+        }
+        sorter.setSortKeys(sortKeys);
         list_table.setRowSorter(sorter);
     }
 }
